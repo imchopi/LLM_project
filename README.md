@@ -41,9 +41,20 @@ git clone https://github.com/imchopi/LLM_project
 
 Para GPT2
 ```bash
-./start_macos.sh --api --model openai-community_gpt2 --cpu --trust-remotecode
+./start_windows.sh --api --model openai-community_gpt2 --cpu --trust-remotecode
 ```
 Para QWEN
 ```bash
-./start_macos.sh --api --model Qwen_Qwen2-0.5B --cpu --trust-remotecode
+./start_windows.sh --api --model Qwen_Qwen2-0.5B --cpu --trust-remotecode
+```
+
+Si tu ordenador es macos o linux, usar el start de cada uno, no el de windows.
+
+3º Finalmente hacemos 
+```bash
+python chat.py
+```
+o
+```bash
+python3 chat.py
 ```
