@@ -28,3 +28,22 @@ Puedes instalar las dependencias necesarias usando `pip`:
 ```bash
 pip install requests
 ```
+
+## Uso
+
+1º Clonamos el repositorio con:
+
+```bash
+git clone https://github.com/imchopi/LLM_project
+```
+
+2º Iniciamos el LLM que usaremos (previamente ejecutar sin especificar el modelo y descargar el modelo deseado en la sección model accediendo a localhost y el puerto que te indique en la terminal)
+
+Para GPT2
+```bash
+./start_macos.sh --api --model openai-community_gpt2 --cpu --trust-remotecode
+```
+Para QWEN
+```bash
+./start_macos.sh --api --model Qwen_Qwen2-0.5B --cpu --trust-remotecode
+```
